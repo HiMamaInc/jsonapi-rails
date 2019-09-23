@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+=begin
 rails_version = ENV['RAILS_VERSION'] || "default"
 rails =
   case rails_version
@@ -10,7 +10,8 @@ rails =
   else
     "~> #{ENV['RAILS_VERSION']}"
   end
-
-gem 'rails', rails
+=end
+hm_proj_rails = '4.1.16'
+gem 'rails', hm_proj_rails
 
 gemspec
